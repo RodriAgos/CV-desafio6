@@ -3,17 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/cdcb391227.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>CV - Rodrigo Aguirre</title>
+    <script src="https://kit.fontawesome.com/cdcb391227.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    
-    <nav></nav> 
-    <header></header>
-    <article></article>
-    <section></section>
+    <!--NavBar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: grey;">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Rodrigo Aguirre Osorio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto me-5">
+                <li class="nav-item">
+                  <a class="nav-link " href="#cvinfo">Curriculum</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portafolio">Porfatolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#formulario">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.linkedin.com/in/rodrigoaguirreo/"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                
+                
+                
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+
+    <!--Header-->
+        <header id="Hero-Section" class="text-light text-center py-5 mt-5">
+            <div class="container">
+                <div class="mx-auto col-12 col-md-7 ">
+                    <h1 class="display-3 fw-bold my-5">
+                      Ingeniero en Marketing <br> aprendiendo Fullstack
+                    </h1>
+                    <p class="my-5">
+                        Entre videojuegos y conversaciones profundas sale a relucir lo más profundo de mi. <br> Aprendiendo todo el tiempo de la tecnología y el arte.
+                    </p>
+                    <div class="mb-5 pb-5">
+                        <button class="btn btn-lg btn-info text-light me-3">Mi Curriculum</button>
+                        <button class="btn btn-lg btn-info text-light me-4">Mi Portafolio</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+      <!--Presentación-->
+    <article>
+
+    </article>
+
+    <!--Curriculum-->
+    <div id="Acerca-de-mi" class="container text-center my-5 py-2">
+
+        <h2 class="display-3 fw-bold my-4">¿Qué me caracteriza?</h2>
+
+        <div class="foto-perfil">
+        <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="/assets/img/foto_perfil.jpg" alt="..." /></span>
+        </div>
+        <p class="my-4">
+            En IPANEMA CARAMEL nos guían los siguientes puntos:
+        </p>
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-passport fa-4x my-4"></i>
+                <h3 class="my-3 fw-bold">Tenemos listo el pasaporte</h3>
+                <p class="my-3">
+                    Siempre estamos listos para el siguiente destino; ya sea por nuestros
+                    trabajos o buscando la oportunidad de un merecido descanso. Un viaje 
+                    siempre es una oportunidad de algo nuevo.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-gem fa-4x my-4"></i>
+                <h3 class="my-3 fw-bold">Fans de lo que ofrecemos</h3>
+                <p class="my-3">
+                    La naturaleza nómada nos pide productos que sean portables, por lo que
+                    todo lo que ofrecemos en el sitio viene recomendado desde la experiencia
+                    de uso. Esperamos que la selección sea de tu agrado.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fa-solid fa-square-rss fa-4x my-4"></i>
+                <h3 class="my-3 fw-bold">Hacemos comunidad</h3>
+                <p class="my-3">
+                    Las experiencias nos enriquecen, y cada viaje es el disfrute de conocer y aprender,
+                    queremos compartir aquello y hacer comunidad; ya sea que quieres visitar un destino
+                    y te faltan algunos datos o recomendaciones, aquí te compartimos los tips.
+                </p>
+            </div>
+        </div>
+      </div>
+
+    <!--Portafolio-->
+    <section id="portafolio"></section>
+
+    <!--Contacto-->
     <form action=""></form>
-    <footer></footer>
+
+    <footer class="bg-dark text-center text-light p-4">
+            <img class="logo-footer mb-4" src="" alt="logo ipanema">
+            <p class="mb-0">Rodrigo Aguirre Osorio 2024. Todos los derechos reservados.</p>
     
+            <div id="social-links" class="container p-2">
+                <a href="https://www.instagram.com" target=""><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.tiktok.com" target=""><i class="fab fa-tiktok fa-2x"></i></a>
+                <a href="https://www.pinterest.com" target=""><i class="fab fa-pinterest fa-2x"></i></a>
+            </div>
+        </footer>
+    </footer>
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
 </html>

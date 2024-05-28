@@ -1,0 +1,17 @@
+/* Estilos Header */
+
+/* Hero Section */
+
+#Hero-Section {
+    background-image: url(../img/wallpaper-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  .foto-perfil{
+    width: 20%;
+  }
+  
+  /* Mis trabajos */
